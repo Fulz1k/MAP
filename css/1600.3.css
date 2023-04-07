@@ -1,0 +1,82 @@
+
+@media (min-width: 993px) and (max-width: 1600px) {
+
+	html{
+		background-size: 100%;
+	}
+	body{
+		
+		margin: 3px;
+	}
+	img[class="logo"] {
+		width: 100%;
+	}
+	b[class="oao"]{
+		font-size: 75%;
+	}
+	b[class="oaog"]{
+		font-size: 75%;
+	}
+	b[class="middle"]{
+		font-size: 75%;
+	}
+	img[class="middle"]{
+		width: 75%;
+	}
+	td[class="middle"]{
+		width: 33.33%;
+		height: 50%;
+	}
+	table[class="middle"]{
+		height: 50%;
+	}
+	td[class="low1"]{
+		width: 60%;
+	}
+	td[class="low2"]{
+		width: 40%;
+	}
+	td[class="low3"]{
+		display: none;
+	}
+	tr[class="lowg"]{
+		height: 25%;
+	}
+	dir[class="noneURL"]{
+		padding: 0px 20px 0px 0px;
+	}
+	dir[class=">1600"]{
+		padding: 0px 20px 0px 0px;
+	}
+	dir[class="top"]{
+		padding: 0px 0px 0px 0px;
+	}
+	td[class="logo"]{
+		width: 30%;
+	}
+	div[class="html"]{
+		padding: 0px 20px 0px 0px;
+	}
+	div [class="ub"]{
+		display: none;
+	}
+
+	div[class="menu"] {
+		display: none;
+	}
+	div[class="menu-btn"] {
+		display: none;
+		align: center;
+		width: 50%;
+	}
+	div[class="menu"] {
+	display: none;
+	}
+	p[class="middle"]{
+	margin: 0px 0px;
+}
+dir[class="<480"]{
+		padding: 0px 20px 0px 0px;
+		display: none;
+	}
+}

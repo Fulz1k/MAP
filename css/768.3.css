@@ -1,0 +1,198 @@
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+html{
+		background-size: 100%;
+	}
+	body{
+		
+		margin: 3px;
+	}
+	img[class="logo"] {
+		width: 75%;
+	}
+	b[class="oao"]{
+		font-size: 50%;
+	}
+	b[class="oaog"]{
+		font-size: 50%;
+	}
+	b[class="middle"]{
+		font-size: 50%;
+	}
+	img[class="middle"]{
+		width: 50%;
+	}
+	td[class="middle"]{
+		width: 33.33%;
+		height: 50%;
+	}
+	table[class="middle"]{
+		height: 50%;
+	}
+	td[class="low1"]{
+		width: 60%;
+	}
+	td[class="low2"]{
+		width: 40%;
+	}
+	td[class="low3"]{
+		display: none;
+	}
+	tr[class="lowg"]{
+		height: 25%;
+	}
+	dir[class="noneURL"]{
+		padding: 0px 20px 0px 0px;
+	}
+	dir[class=">1600"]{
+		padding: 0px 20px 0px 0px;
+	}
+	dir[class="top"]{
+		padding: 0px 0px 0px 0px;
+	}
+	td[class="logo"]{
+		width: 30%;
+	}
+	div[class="html"]{
+		padding: 0px 20px 0px 0px;
+		display: none;
+	}
+
+
+		header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0px 33.33% 0px 0px;
+	margin: 0% 0%;
+	width: 30%;
+	z-index:2
+}
+
+
+	/* Гамбургер иконка */
+.menu-btn {
+	width: 45px;
+	height: 62px;
+	position: relative;
+	z-index:3;
+	overflow: hidden;
+	padding: 0px 40px 0px 0px;
+	top: 0;
+	color: #FFFFFF;
+}
+
+.menu-btn span {
+	width: 40px;
+	height: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	transition: all 0.5s;
+	color: #FFFFFF;
+}
+
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 7px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 7px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+.menu-btn.active span:nth-of-type(1) {
+  display: none;
+   right: 3000;
+}
+.menu-btn.active span:nth-of-type(2) {
+	background-color: #222222;
+  top: 50%;
+   right: 3000;
+  transform: translate(-50%, 0%) rotate(45deg);  
+}
+.menu-btn.active span:nth-of-type(3) {
+	background-color: #222222;
+  top: 50%;
+  display: flex;
+	justify-content: flex-end;
+  transform: translate(-50%, 0%) rotate(-45deg); 
+}
+
+/* Меню, которое будет появляться */
+.menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 60%;
+	height: 100%;
+	padding: 15px;
+  background: #FFFFFF;
+	transform: translateX(100%);
+	transition: transform 0.5s; 
+}
+
+.menu.active {
+	transform: translateX(0);
+}
+
+.menu li {
+	list-style-type: none;
+}
+a[class="burger"] {
+	align: left;
+	color: black;
+	height: 10px;
+}
+ul[class="burger"] {
+	padding: 0px 0px 0px 0px;
+}
+u[class="t2"]{
+	display: none;
+}
+dir[class="aaa"] {
+	margin: 150% 40px;
+	padding: 0px 5% 0px 0px;
+	align: left;
+	left: 0;
+}
+form[class="none"]{
+	display: none;
+	}
+tr[class="begg"]{
+	display: none;
+}
+p[class="middle"]{
+	margin: 0px 0px;
+}
+
+
+.marquee-infinity {
+	overflow: hidden;
+	max-width: 60%;
+}
+.marquee-infinite div{
+	display: flex;
+	width: 100%;
+	animation: marquee-infinite 0s linear infinite;
+}
+ .marquee-infinite h1{
+	white-space: nowrap;
+	width: 100%;
+}
+.marquee-infinite span{
+	width: 100%;
+	display: flex;
+	justify-content: space-ground;
+}
+
+.marquee-infinite img{
+	width: 100%;
+}
+ dir[class="<480"]{
+		padding: 0px 20px 0px 0px;
+		display: none;
+	}
+
+}

@@ -140,7 +140,7 @@
 	width: 60%;
 	height: 100%;
 	padding: 15px;
-  background: #FFFFFF;
+	background: #FFFFFF;
 	transform: translateX(100%);
 	transition: transform 0.5s; 
 }
