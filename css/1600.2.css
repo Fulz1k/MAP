@@ -1,0 +1,38 @@
+
+@media (min-width: 993px) and (max-width: 1600px) {
+	body{
+		
+		margin: 3px;
+	}
+	img[class="logo"] {
+		width: 25%;
+	}
+	table[class="top"] {
+		width: 99%;
+	}
+	table[class="url"] {
+		width: 98%;
+	}
+	font[class="text"] {
+		width: 100%;
+	}
+	dir[class="dir"]{
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px;
+	}
+	div[class="menu"] {
+		display: none;
+	}
+	div[class="menu-btn"] {
+		display: none;
+		align: center;
+		width: 50%;
+	}
+	div[class="menu"] {
+	display: none;
+	}
+}
+
+<div valign="top" class="logo">
+
+<div class="menu-btn" align="right" valign="top">

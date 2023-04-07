@@ -1,0 +1,50 @@
+
+@media (min-width: 993px) and (max-width: 1600px) {
+	
+	img[class="logo"]{
+		max-width: 100%;
+	}
+	div[class="logo"]{
+		max-width: 350px;
+	}
+	img[class=rab1]{
+		max-width: 100%;
+	}
+	td[class="logorab1"]{
+		max-width: 350px;
+	}
+	font[class="t1"]{
+		font-size: 100%;
+	}
+	td[class="t1"] {
+		max-width: 150px;
+	}
+	font[class="t2"] {
+		font-size: 100%;
+		max-width: 100px;
+		max-height: 100px;
+	}
+	td[class="t2"] {
+
+	}
+	td[class="1"]{
+		height: 100%;
+	}
+	u[class="t2"] {
+		font-size: 100%;
+	}
+	img[class="url"] {
+	max-width: 100%;
+	}
+	table[class="sh"] {
+		max-width: 100%;
+		max-height: 100%;
+		vertical-align: top;
+	}
+	button[class="button"] {
+		font-size: 100%;
+	}
+	h1[class="t1"] {
+		margin: 5px;
+	}
+}
