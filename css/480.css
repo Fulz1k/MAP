@@ -65,9 +65,11 @@
 	}
 	button[class="button"] {
 		font-size: 35%;
+		align: center;
 	}
+
 	b[class="button"]{
-		font-size: 10;
+		font-size: 14;
 	}
 	h1[class="t1"] {
 		margin: 5px;
@@ -167,4 +169,5 @@ dir[class="aaa"] {
 	align: left;
 	left: 0;
 }
+
 }
