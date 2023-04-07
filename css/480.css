@@ -169,5 +169,7 @@ dir[class="aaa"] {
 	align: left;
 	left: 0;
 }
-
+form[class="none"]{
+	display: none;
+	}
 }

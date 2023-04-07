@@ -45,4 +45,19 @@
 	h1[class="t1"] {
 		margin: 5px;
 	}
+		div[class="menu-btn"] {
+		display: none;
+		align: center;
+		width: 50%;
+	}
+	div[class="menu"] {
+	display: none;
+	}
+	form[class="button"]{
+	display: none;
+	}
+	dir[class="t1"]{
+		padding: 0px 20px 0px 0px;
+		margin: 0px 0px;
+	}
 }
